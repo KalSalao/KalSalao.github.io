@@ -3,11 +3,11 @@ html {
     font-family: 'Kanit', sans-serif;
     background-color: rgb(22, 167, 211);
 }
-h1 {
+#heading {
     margin: 0 auto;
     padding: 20px 0;
-    color: rgb(0, 0, 0);
-    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+    color: blue;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
     font-size: 60px;
     text-align: center;
 }

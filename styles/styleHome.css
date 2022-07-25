@@ -1,4 +1,5 @@
 body {
+    position: relative;
     margin-top: 0;
     margin: 0;
 }
@@ -54,6 +55,47 @@ li.homeMenu a:hover {
 li.lab1Menu a:hover {
     background-color: #E8E8E8;
     color: #ECB365;
+}
+.tableAndForm {
+    position: absolute;
+    width: 450px;
+    height: 175px;
+    left: 600px;
+}
+table {
+    position: absolute;
+
+    border: 2.5px solid #495464;
+    border-collapse: collapse;
+}
+th {
+    border: 2.5px solid #495464;
+    border-collapse: collapse;
+    background-color: #fafad2;
+
+    color: #495464;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+td {
+    border: 2.5px solid #495464;
+    border-collapse: collapse;
+}
+.form {
+    position: absolute;
+    margin-top: 0;
+    left: 400px;
+    top: 0px;
+
+    color: #495464;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
 }
 .seltPortrait {
     position: absolute;

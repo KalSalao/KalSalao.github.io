@@ -3,42 +3,42 @@ html {
     font-family: 'Kanit', sans-serif;
     background-color: rgb(22, 167, 211);
 }
-@media (min-width : 320px) and (max-width : 568px) {
+@media (max-width : 568px) {
     .captionP {
-        font-size: 16px;
+        font-size: 24px;
     }
     .detail01 {
-        font-size: 20px;
-    }
-    .detail02 {
-        font-size: 20px;
+        font-size: 28px;
     }
     .heading2 {
-        font-size: 36px;
+        font-size: 32px;
+    }
+    .detail02 {
+        font-size: 28px;
     }
     .credit {
-        font-size: 20px;
+        font-size: 28px;
     }
   }
-@media (min-width : 768px) and (max-width : 1024px) {
+@media (max-width : 1024px) {
     .captionP {
-        font-size: 20px;
+        font-size: 24px;
     }
     .detail01 {
-        font-size: 24px;
-    }
-    .detail02 {
-        font-size: 24px;
+        font-size: 28px;
     }
     .heading2 {
-        font-size: 48px;
+        font-size: 32px;
+    }
+    .detail02 {
+        font-size: 28px;
     }
     .credit {
-        font-size: 24px;
+        font-size: 28px;
     }
   }
 
-#heading {
+#heading1 {
     margin: 0 auto;
     padding: 20px 0;
     color: blue;
@@ -46,9 +46,9 @@ html {
     font-size: 60px;
     text-align: center;
 }
-h2 {
+#heading2 {
     color: blue;
-    font-size: 24px;
+    font-size: 32px;
 }
 body {
     width: 600px;

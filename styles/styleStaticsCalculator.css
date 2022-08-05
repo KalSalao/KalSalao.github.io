@@ -1,0 +1,42 @@
+@media screen and (max-width: 568px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    li {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    li {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 36px;
+    }
+}
+
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+.center {
+    margin-left: 10px;
+}
+.orderNum {
+    list-style-type: decimal;
+}
